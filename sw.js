@@ -4,14 +4,15 @@ let dynamic_cache = "dynamic-v1"
 
 /* files to be cached */
 let cached_files = [
-    '/',
-    '/index.html',
-    '/JS/app.js',
-    '/JS/bootstrap.min.js',
-    '/JS/jquery.js',
-    '/JS/popper.js',
-    '/css/bootstrap.min.css',
-    '/css/style.css'
+    './',
+    './index.html',
+    './JS/app.js',
+    './JS/bootstrap.min.js',
+    './JS/jquery.js',
+    './JS/popper.js',
+    './css/bootstrap.min.css',
+    './css/style.css',
+
 ];
 /* install event of service worker */
 self.addEventListener('install', function (event) {
