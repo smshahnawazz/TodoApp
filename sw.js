@@ -1,6 +1,6 @@
 /* cache names */
-let static_cache = "static-v1";
-let dynamic_cache = "dynamic-v1"
+let static_cache = "static-v2";
+let dynamic_cache = "dynamic-v2"
 
 /* files to be cached */
 let cached_files = [
